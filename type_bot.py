@@ -1,10 +1,10 @@
-import datetime
+import time
 
 #type bot:
 
-#5 secs after init, starts typing
+#time.sleep(5) 5 secs after init, starts typing
 #1 character slowwly
-#for 30 seconds
+#time.sleep(30) 30 seconds
 #webbrowser opens to google with type words
 #program ends after 30 seconds
 
