@@ -9,7 +9,6 @@ datetime.time(now.hour)
 now_hr = now.hour
 
 url = 'http://lmgtfy.com/?q=zerg+rush'
-
 chrome_loc = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
 
 #type certain things depending on hour of day
@@ -36,9 +35,7 @@ def msg_type():
     sys.stdout.flush()
   
 time.sleep(1.5) #1.5 secs after init, start typing
-
 msg_type()#1 character slowly
-
 time.sleep(1.5) #1.5 secs after typing, open chrome
 
 #webbrowser opens to 'let me google that for you'(lmgtfy): zerg rush
