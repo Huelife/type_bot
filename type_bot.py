@@ -1,4 +1,4 @@
-#type bot: types a message and opens chrome
+#type bot.py: calls msg.py
 
 import time
 import sys
