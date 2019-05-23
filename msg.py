@@ -1,6 +1,4 @@
-#messages based on hour
-  #messages based on minutes
-    #messages based on seconds
+#msg.py: types a message and opens chrome
     
 import datetime
 import sys
