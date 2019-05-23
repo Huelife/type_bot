@@ -2,7 +2,9 @@
   #messages based on minutes
     #messages based on seconds
     
-import datetime    
+import datetime
+import sys
+import time
 
 now = datetime.datetime.now()
 datetime.time(now.hour)
@@ -21,7 +23,8 @@ def msg_type():
     msg = iter("Don't turn on the lights...")
   else:
     msg = iter("WE'RE SINKING!!")
-    
+
+#starts iterating through each character of the message
   sys.stdout.write(next(msg))
   sys.stdout.flush()
 
@@ -29,3 +32,5 @@ def msg_type():
     time.sleep(0.25)
     sys.stdout.write(i)
     sys.stdout.flush()
+    
+def msg_type()
