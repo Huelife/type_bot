@@ -1,4 +1,4 @@
-#msg.py: types a message and opens chrome
+#msg.py: Types a message and opens chrome
     
 import datetime
 import sys
