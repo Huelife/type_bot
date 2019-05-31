@@ -50,8 +50,8 @@ def msg_type():
     sys.stdout.write(i)
     sys.stdout.flush()
     
-#def msg_type()
-#def msg_day()
+msg_type()
+msg_day()
 time.sleep(1.5)
 
 sys.exit(0)
