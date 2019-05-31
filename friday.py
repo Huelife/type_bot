@@ -32,3 +32,5 @@ def friday_msg():
        "a21",
        "a22",
        "a23"]
+
+friday_msg()
