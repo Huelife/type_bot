@@ -3,6 +3,10 @@
 import datetime
 import sys
 import time
+import webbrowser
+
+url = 'http://lmgtfy.com/?q=zerg+rush'
+chrome_loc = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
 
 now = datetime.datetime.now()
 datetime.time(now.hour)
@@ -43,4 +47,9 @@ def wednesday_msg():
     sys.stdout.flush()
     
 wednesday_msg()
+time.sleep(1.5)
+
+#webbrowser opens to 'let me google that for you'(lmgtfy): zerg rush
+#program ends after a few seconds
+webbrowser.get(chrome_loc).open_new_tab(url)
 sys.exit(0)
