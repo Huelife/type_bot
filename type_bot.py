@@ -1,4 +1,4 @@
-#type bot.py:
+#type_bot.py: Types a message then opens chrome
 
 import datetime
 import sys
@@ -7,24 +7,6 @@ import time
 now = datetime.datetime.now()
 datetime.time(now.hour)
 day_num = int(now.strftime('%w'))
-
-def msg_day():
-  if day_num == 0:
-    import sunday.py
-  elif day_num == 1:
-    import monday.py
-  elif day_num == 2:
-    import tuesday.py
-  elif day_num == 3:
-    import wednesday.py
-  elif day_num == 4:
-    import thursday.py
-  elif day_num == 5:
-    import friday.py
-  elif day_num == 6:
-    import saturday.py
-  else:
-    sys.exit(0)
 
 #type certain things depending on hour of day
 def msg_type(): 
@@ -49,7 +31,26 @@ def msg_type():
     time.sleep(0.25)
     sys.stdout.write(i)
     sys.stdout.flush()
-    
+
+#calling different modules depending on day of the week
+def msg_day():
+  if day_num == 0:
+    import sunday.py
+  elif day_num == 1:
+    import monday.py
+  elif day_num == 2:
+    import tuesday.py
+  elif day_num == 3:
+    import wednesday.py
+  elif day_num == 4:
+    import thursday.py
+  elif day_num == 5:
+    import friday.py
+  elif day_num == 6:
+    import saturday.py
+  else:
+    sys.exit(0)
+   
 msg_type()
 msg_day()
 time.sleep(1.5)
