@@ -43,3 +43,4 @@ def tuesday_msg():
     sys.stdout.flush()
     
 tuesday_msg()
+sys.exit(0)
