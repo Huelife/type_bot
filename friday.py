@@ -7,7 +7,7 @@ import time
 now = datetime.datetime.now()
 datetime.time(now.hour)
 
-def sunday_msg():
+def friday_msg():
   m = ["a0",
        "a1",
        "a2",
