@@ -52,6 +52,7 @@ def msg_day():
     sys.exit(0)
    
 msg_type()
+print("")
 msg_day()
 time.sleep(1.5)
 
