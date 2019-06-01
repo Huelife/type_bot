@@ -5,7 +5,7 @@ import sys
 import time
 import webbrowser
 
-#web url/chrome location/current hour
+#web url/chrome location/current hour creation
 url = 'http://lmgtfy.com/?q=zerg+rush'
 chrome_loc = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
 
@@ -20,7 +20,7 @@ def monday_msg():
               "a3",
               "a4",
               "a5",
-              "a6",
+              "Don't be a Monday morning zombie!",
               "a7",
               "a8",
               "a9",
