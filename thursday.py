@@ -36,7 +36,7 @@ def thursday_msg():
               "a19",
               "a20",
               "a21",
-              "a22",
+              "Thursday is Latin night!",
               "a23"]
 
   msg = iter(msg_list[now.hour])
