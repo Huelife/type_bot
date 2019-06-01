@@ -5,12 +5,14 @@ import sys
 import time
 import webbrowser
 
+#web url/chrome location/current hour
 url = 'http://lmgtfy.com/?q=zerg+rush'
 chrome_loc = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
 
 now = datetime.datetime.now()
 datetime.time(now.hour)
 
+#creating sunday function for string iteration
 def sunday_msg():
   msg_list = ["a0",
               "a1",
