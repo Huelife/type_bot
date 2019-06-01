@@ -25,7 +25,7 @@ def tuesday_msg():
               "a8",
               "a9",
               "a10",
-              "a11",
+              "It's taco Tuesday!",
               "a12",
               "a13",
               "a14",
