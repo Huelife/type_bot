@@ -19,7 +19,7 @@ def wednesday_msg():
               "a2",
               "a3",
               "a4",
-              "a5",
+              "Wednesday mornings are cold...",
               "a6",
               "a7",
               "a8",
