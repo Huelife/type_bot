@@ -5,12 +5,14 @@ import sys
 import time
 import webbrowser
 
+#web url/browser location
 url = 'http://lmgtfy.com/?q=zerg+rush'
 chrome_loc = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
 
 now = datetime.datetime.now()
 datetime.time(now.hour)
 
+#friday function for string iteration
 def friday_msg():
   msg_list = ["a0",
               "a1",
