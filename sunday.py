@@ -47,6 +47,9 @@ def sunday_msg():
     time.sleep(0.25)
     sys.stdout.write(i)
     sys.stdout.flush()
+
+def sunday_hldy_msg():
+  #messages for holidays on sunday   
     
 sunday_msg()
 time.sleep(1.5)
