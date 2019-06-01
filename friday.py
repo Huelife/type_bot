@@ -48,6 +48,9 @@ def friday_msg():
     sys.stdout.write(i)
     sys.stdout.flush()
     
+def friday_hldy_msg():
+  #messages for holidays on friday
+    
 friday_msg()
 time.sleep(1.5)
 
