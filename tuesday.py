@@ -47,6 +47,9 @@ def tuesday_msg():
     time.sleep(0.25)
     sys.stdout.write(i)
     sys.stdout.flush()
+
+def tuesday_hldy_msg():
+  #messages for holidays on tuesday   
     
 tuesday_msg()
 time.sleep(1.5)
