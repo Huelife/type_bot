@@ -35,7 +35,7 @@ def friday_msg():
               "a18",
               "a19",
               "a20",
-              "a21",
+              "Friday nights are spooky...",
               "a22",
               "a23"]
 
