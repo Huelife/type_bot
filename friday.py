@@ -49,6 +49,7 @@ def friday_msg():
     sys.stdout.flush()
     
 def friday_hldy_msg():
+  pass
   #messages for holidays on friday
     
 friday_msg()
