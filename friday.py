@@ -5,7 +5,7 @@ import sys
 import time
 import webbrowser
 
-#web url/browser location
+#web url/browser location/now hour creation
 url = 'http://lmgtfy.com/?q=zerg+rush'
 chrome_loc = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
 
