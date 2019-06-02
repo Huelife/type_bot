@@ -49,6 +49,7 @@ def sunday_msg():
     sys.stdout.flush()
 
 def sunday_hldy_msg():
+  pass
   #messages for holidays on sunday   
     
 sunday_msg()
