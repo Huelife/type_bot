@@ -12,7 +12,7 @@ chrome_loc = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
 now = datetime.datetime.now()
 datetime.time(now.hour)
 
-#creating thursday function for string iteration
+#creating thursday function for string iteration based on hour of day
 def thursday_msg():
   msg_list = ["Thursday mornings...",
               "Thursday mornings...",
@@ -39,6 +39,7 @@ def thursday_msg():
               "Thursday is Latin night!",
               "Thursday is Latin night!"]
 
+  #starts iterating through each character of the message
   msg = iter(msg_list[now.hour])
   sys.stdout.write(next(msg))
   sys.stdout.flush()
