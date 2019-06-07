@@ -23,7 +23,7 @@ def msg_type():
   else:
     msg = iter("WE'RE SINKING!!")
 
-#starts iterating through each character of the message
+  #starts iterating through each character of the message
   sys.stdout.write(next(msg))
   sys.stdout.flush()
 
