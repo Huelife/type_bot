@@ -12,7 +12,7 @@ chrome_loc = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
 now = datetime.datetime.now()
 datetime.time(now.hour)
 
-#creating saturday function for string iteration
+#creating saturday function for string iteration based on hour of day
 def saturday_msg():
   msg_list = ["Saturday...",
               "Saturday...",
@@ -39,6 +39,7 @@ def saturday_msg():
               "It's Saturday, are you partying?",
               "It's Saturday, are you partying?"]
 
+  #starts iterating through each character of the message
   msg = iter(msg_list[now.hour])
   sys.stdout.write(next(msg))
   sys.stdout.flush()
